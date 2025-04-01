@@ -17,7 +17,7 @@ const useStore = create<IStore>((set) => ({
     message: "",
     display: false,
   },
-  setToastData: (toastData: IStore["toastData"]) => set((state) => ({ ...state, toastData })),
+setToastData: (toastData: IStore["toastData"]) => set((state) => ({ ...state, toastData })),
 }));
 
 export default useStore;
